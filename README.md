@@ -1,4 +1,4 @@
-![enter image description here](http://jalsonic.com/assets/github/githugOpinionHeader.png)
+![Jalsonic Opinion](http://jalsonic.com/assets/github/githugOpinionHeader.png)
 
 Jalsonic Opinion Version v1 Beta - Build something amazing
 ===================
@@ -15,6 +15,14 @@ Opinion (o-) is a modern and powerful front-end framework with built-in responsi
 If you want to find out the IP address, Operating system , Browser of an Internet user using the devise through JavaScript, you can use  opinion objects or to get an idea what part of the country or world because sometimes you can give specific instruction to internet user.
 
 On-scroll animations are one of the most popular and enduring web-development techniques from recent years. Jalsonic Opinion helps you to create on-scroll animation website and mobile web application, you can use opinion moves because animation that makes your site look dynamic and modern, unlike the static pages of old.
+
+Works Everywhere
+----------------------
+
+Opinion is a cross-browser front-end framework for the websites and mobile web application, that's easy to use and easy to deploy. It works on all major Internet browsers.
+
+![Jalsonic Opinion](http://jalsonic.com/assets/github/crossbrowser.jpg)
+
 
 Opinion Initialization
 ----------------------
@@ -324,7 +332,7 @@ For those who want to see more examples of this in action, you can visit [Jalson
 Designed, Built and Maintained by [Imran Malik](http://Imranamanat.com) imran@imranamanat.com and [Jalsonic Secure Team](http://jalsonic.com/secure). A Division of [Jalsonic Networks](http://jalsonic.com).
 
 
-
+![Jalsonic Footer](http://jalsonic.com/assets/github/githubfooters.png)
 
 
 

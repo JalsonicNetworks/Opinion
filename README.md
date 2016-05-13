@@ -1,3 +1,5 @@
+![enter image description here](http://jalsonic.com/assets/github/githugOpinionHeader.png)
+
 Jalsonic Opinion Version v1 Beta - Build something amazing
 ===================
 

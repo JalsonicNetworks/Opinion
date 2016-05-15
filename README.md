@@ -221,8 +221,8 @@ See how aspects of the opinion grid system work across multiple devices with a h
 **number of columns** | 12
 Column width	 | Auto	 | ~62px | ~81px | ~97px
 Gutter width	| 30px (15px on each side of a column)
-Offsets	| Yes  
-Column ordering	| Yes
+Offsets	| `.o-col-s-offset-*` | `.o-col-m-offset-*` | `.o-col-l-offset-*` | `.o-col-xl-offset-*`  
+Column ordering	| `.o-col-s-pull-*` | `.o-col-m-pull-*` | `.o-col-l-pull-*` | `.o-col-xl-pull-*` 
 
 
 opinion provides various helper classes that can be useful in certain situations in dealing with grids.
@@ -280,7 +280,7 @@ Some time we need specific contents, images, fields’ of HTML form and most imp
 Example:
 
     //This div tag only shown in turkey  
-    <div class=”o-tr”> International Conference on Business, Economics, Social Science & Humanities (BESSH) -
+    <div class=”o-allRegions”> International Conference on Business, Economics, Social Science & Humanities (BESSH) -
     09-10 May 2016 – Istanbul </div>
 
     //This div tag only shown in turkey and Pakistan 
@@ -291,7 +291,7 @@ Example:
 Opinion regions classes reference 
 
 ```css
-    .o-af, .o-ax, .o-al, .o-dz, .o-as, .o-ad, .o-ao, .o-ai, .o-aq, .o-ag, .o-ar, .o-am, .o-aw, .o-au, .o-at, .o-az, .o-bs, .o-bh, .o-bd, .o-bb, .o-by, .o-be, .o-bz, .o-bj, .o-bm, .o-bt, .o-bo, .o-bq, .o-ba, .o-bw, .o-bv, .o-br, .o-io, .o-bn, .o-bg, .o-bf, .o-bi, .o-kh, .o-cm, .o-ca, .o-cv, .o-ky, .o-cf, .o-td, .o-cl, .o-cn, .o-cx, .o-cc, .o-co, .o-km, .o-cg, .o-ck, .o-cr, .o-ci, .o-hr, .o-cu, .o-cw, .o-cy, .o-cz, .o-cd, .o-dk, .o-dj, .o-dm, .o-do, .o-ec, .o-eg, .o-sv, .o-gq, .o-er, .o-ee, .o-et, .o-fk, .o-fo, .o-fj, .o-fi, .o-fr, .o-gf, .o-pf, .o-tf, .o-ga, .o-gm, .o-ge, .o-de, .o-gh, .o-gi, .o-gr, .o-gl, .o-gd, .o-gp, .o-gu, .o-gt, .o-gg, .o-gn, .o-gw, .o-gy, .o-ht, .o-hm, .o-hn, .o-hk, .o-hu, .o-is, .o-in, .o-id, .o-ir, .o-iq, .o-ie, .o-im, .o-il, .o-it, .o-jm, .o-jp, .o-je, .o-jo, .o-kz, .o-ke, .o-ki, .o-xk, .o-kw, .o-kg, .o-la, .o-lv, .o-lb, .o-ls, .o-lr, .o-ly, .o-li, .o-lt, .o-lu, .o-mo, .o-mk, .o-mg, .o-mw, .o-my, .o-mv, .o-ml, .o-mt, .o-mh, .o-mq, .o-mr, .o-mu, .o-yt, .o-mx, .o-fm, .o-md, .o-mc, .o-mn, .o-me, .o-ms, .o-ma, .o-mz, .o-mm, .o-na, .o-nr, .o-np, .o-nl, .o-nc, .o-nz, .o-ni, .o-ne, .o-ng, .o-nu, .o-nf, .o-kp, .o-mp, .o-no, .o-om, .o-pk, .o-pw, .o-ps, .o-pa, .o-pg, .o-py, .o-pe, .o-ph, .o-pn, .o-pl, .o-pt, .o-pr, .o-qa, .o-re, .o-ro, .o-ru, .o-rw, .o-bl, .o-sh, .o-kn, .o-lc, .o-mf, .o-pm, .o-vc, .o-ws, .o-sm, .o-st, .o-sa, .o-sn, .o-rs, .o-sc, .o-sl, .o-sg, .o-sx, .o-sk, .o-si, .o-sb, .o-so, .o-za, .o-gs, .o-kr, .o-ss, .o-es, .o-lk, .o-sd, .o-sr, .o-sj, .o-sz, .o-se, .o-ch, .o-sy, .o-tw, .o-tj, .o-tz, .o-th, .o-tl, .o-tg, .o-tk, .o-to, .o-tt, .o-tn, .o-tr, .o-tm, .o-tc, .o-tv, .o-ug, .o-ua, .o-ae, .o-gb, .o-us, .o-um, .o-uy, .o-uz, .o-vu, .o-va, .o-ve, .o-vn, .o-vg, .o-vi, .o-wf, .o-eh, .o-ye, .o-zm, .o-zw
+    .o-allRegions, .o-af, .o-ax, .o-al, .o-dz, .o-as, .o-ad, .o-ao, .o-ai, .o-aq, .o-ag, .o-ar, .o-am, .o-aw, .o-au, .o-at, .o-az, .o-bs, .o-bh, .o-bd, .o-bb, .o-by, .o-be, .o-bz, .o-bj, .o-bm, .o-bt, .o-bo, .o-bq, .o-ba, .o-bw, .o-bv, .o-br, .o-io, .o-bn, .o-bg, .o-bf, .o-bi, .o-kh, .o-cm, .o-ca, .o-cv, .o-ky, .o-cf, .o-td, .o-cl, .o-cn, .o-cx, .o-cc, .o-co, .o-km, .o-cg, .o-ck, .o-cr, .o-ci, .o-hr, .o-cu, .o-cw, .o-cy, .o-cz, .o-cd, .o-dk, .o-dj, .o-dm, .o-do, .o-ec, .o-eg, .o-sv, .o-gq, .o-er, .o-ee, .o-et, .o-fk, .o-fo, .o-fj, .o-fi, .o-fr, .o-gf, .o-pf, .o-tf, .o-ga, .o-gm, .o-ge, .o-de, .o-gh, .o-gi, .o-gr, .o-gl, .o-gd, .o-gp, .o-gu, .o-gt, .o-gg, .o-gn, .o-gw, .o-gy, .o-ht, .o-hm, .o-hn, .o-hk, .o-hu, .o-is, .o-in, .o-id, .o-ir, .o-iq, .o-ie, .o-im, .o-il, .o-it, .o-jm, .o-jp, .o-je, .o-jo, .o-kz, .o-ke, .o-ki, .o-xk, .o-kw, .o-kg, .o-la, .o-lv, .o-lb, .o-ls, .o-lr, .o-ly, .o-li, .o-lt, .o-lu, .o-mo, .o-mk, .o-mg, .o-mw, .o-my, .o-mv, .o-ml, .o-mt, .o-mh, .o-mq, .o-mr, .o-mu, .o-yt, .o-mx, .o-fm, .o-md, .o-mc, .o-mn, .o-me, .o-ms, .o-ma, .o-mz, .o-mm, .o-na, .o-nr, .o-np, .o-nl, .o-nc, .o-nz, .o-ni, .o-ne, .o-ng, .o-nu, .o-nf, .o-kp, .o-mp, .o-no, .o-om, .o-pk, .o-pw, .o-ps, .o-pa, .o-pg, .o-py, .o-pe, .o-ph, .o-pn, .o-pl, .o-pt, .o-pr, .o-qa, .o-re, .o-ro, .o-ru, .o-rw, .o-bl, .o-sh, .o-kn, .o-lc, .o-mf, .o-pm, .o-vc, .o-ws, .o-sm, .o-st, .o-sa, .o-sn, .o-rs, .o-sc, .o-sl, .o-sg, .o-sx, .o-sk, .o-si, .o-sb, .o-so, .o-za, .o-gs, .o-kr, .o-ss, .o-es, .o-lk, .o-sd, .o-sr, .o-sj, .o-sz, .o-se, .o-ch, .o-sy, .o-tw, .o-tj, .o-tz, .o-th, .o-tl, .o-tg, .o-tk, .o-to, .o-tt, .o-tn, .o-tr, .o-tm, .o-tc, .o-tv, .o-ug, .o-ua, .o-ae, .o-gb, .o-us, .o-um, .o-uy, .o-uz, .o-vu, .o-va, .o-ve, .o-vn, .o-vg, .o-vi, .o-wf, .o-eh, .o-ye, .o-zm, .o-zw
 ```
 
 Opinion Moves Reveal

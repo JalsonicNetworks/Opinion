@@ -61,8 +61,7 @@ Other way is that to make external calls for your specific page you need to use 
 
 > Note: if you will using opinion attribute it will works on current page where you written.
 
-About `o.init(Object parameter)` and Opinion HTML attribute
-----------------------
+ - **About `o.init(Object parameter)` and Opinion HTML attribute**
 
  - **Dirpath**
 

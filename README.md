@@ -1,6 +1,3 @@
-Jalsonic Server Maintenance Notice! - All Jalsonic servers will be undergoing Scheduled Maintenance for about 3 days. During these hours servers are temporarily unable. We apologize for the inconvenience.
-------------------------------
-
 Jalsonic Opinion Version v1 Beta - Build something amazing
 ===================
 
